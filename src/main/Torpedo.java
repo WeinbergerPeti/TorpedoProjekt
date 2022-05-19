@@ -50,8 +50,7 @@ public class Torpedo
         }
          System.out.println("");
          return palyatomb;
-                 
-         
+                  
     }
     
     
