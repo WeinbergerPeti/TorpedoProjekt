@@ -43,14 +43,13 @@ public class Torpedo
         this.palyaHossz = palyaHossz;
     }
     
-    public int palyahossz(){
-        palyaHossz = 7;
-        String vonal = "_";
-        String palyatomb[];
-         for (int i = 0; i < palyaHossz; i++) {
-             System.out.println("_");
+    public String[] palyahossz(){
+        String [] palyatomb = {"_", "_", "_", "_", "_", "_", "_"} ;
+         for (int i = 0; i < palyatomb.length; i++) {
+             System.out.print(palyatomb[i]+" ");
         }
-         return 0;
+         System.out.println("");
+         return palyatomb;
                  
          
     }
