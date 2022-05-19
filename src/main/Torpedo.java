@@ -43,6 +43,17 @@ public class Torpedo
         this.palyaHossz = palyaHossz;
     }
     
+    public int palyahossz(){
+        palyaHossz = 7;
+        String vonal = "_";
+        String palyatomb[];
+         for (int i = 0; i < palyaHossz; i++) {
+             System.out.println("_");
+        }
+         return 0;
+                 
+         
+    }
     
     
 }
