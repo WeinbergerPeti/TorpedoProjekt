@@ -7,7 +7,8 @@ public class Torpedo
     private int probakSzamlalo;
     private boolean talalatE;
 
-    public Torpedo(int hajoHoszz, int palyaHossz, int probakSzamlalo, boolean talalatE) {
+    public Torpedo(int hajoHoszz, int palyaHossz, int probakSzamlalo, boolean talalatE) 
+    {
         this.hajoHoszz = hajoHoszz;
         this.palyaHossz = palyaHossz;
         this.probakSzamlalo = probakSzamlalo;
@@ -31,7 +32,8 @@ public class Torpedo
         return probakSzamlalo;
     }
 
-    public boolean isTalalatE() {
+    public boolean isTalalatE() 
+    {
         return talalatE;
     }
 
@@ -43,6 +45,15 @@ public class Torpedo
         this.palyaHossz = palyaHossz;
     }
     
-    
-    
+    public void hajoElhelyez()
+    {
+        hajoHoszz=3;
+        palyaHossz=7;
+        String hajoTomb;
+        char vonal='_';
+        for (int i = 0; i < palyaHossz-hajoHoszz; i++) 
+        {
+            System.out.println(vonal);
+        }
+    }
 }
