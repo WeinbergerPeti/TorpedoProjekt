@@ -16,3 +16,7 @@ _______________
 + hajoElhelyez:void() //(random elhelyezzük a pályán)
 + loves:void() //(pálya egyik mezőjére kattintva imitáljuk a lövést)
 
+- Torpedo(int hajoHossz, int palyaHossz){}
+- Torpedo(int hajoHossz, int palyaHossz, boolean talalatE, int probakSzamlalo){}
+- SethajoHossz(hajoHossz){}
+- SetpalyaHossz(int palyaHossz){}
